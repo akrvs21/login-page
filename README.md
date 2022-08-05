@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+### Как запустить приложение?
+
+1. Клонировать репозиторий:  
+   `git clone https://github.com/akrvs21/login-page.git`
+2. Установить все пакеты и запустить приложение:  
+   `npm install`  
+   `npm start`
+
+#### Возможные улучшения и изменения:
+
+1.  Рефакторинг кода.
+2.  Локальное кэширование данных.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

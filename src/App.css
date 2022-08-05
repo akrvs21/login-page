@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+input {
+  all: unset;
+}
 .App {
   text-align: center;
 }

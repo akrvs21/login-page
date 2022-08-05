@@ -1,7 +1,64 @@
 .formContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 640px;
+  height: 338px;
+  margin: auto;
+  position: relative;
+  top: 230px;
+}
+
+.fpswd-container {
+  display: flex;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: rgb(74, 103, 255);
+}
+
+.errorMessageContainer {
+    background-color: #f5e9e9;
+    border: 1px solid #e26f6f;
+    border-radius: 8px;
+    display: none;
+    height: 60px;
+    align-items: center;
+    justify-content: start;
     margin: auto;
+    width: 640px;
+    position: relative;
+    top: 210px;
+}
+
+.errorSign {
+  padding: 10px;
+  margin: 0 20px;
+  border: 1px solid #e26f6f;
+  border-radius: 50%;
+  height: 30px;
+  text-align: center;
+  line-height: 8px;
+  font-size: 17px;
+  color: #ee6565;
+  background-color: #ffc8c8;
+  font-weight: 700;
+}
+.errorMessage {
+  color: #000;
+  font-size: 14px;
+}
+.toggle {
+  display: flex;
 }
